@@ -16,7 +16,7 @@ LibreCrawlPlugin.register({
     },
 
     onTabActivate(container, data) {
-        alert("registered")
+     
         this.render(container, data);
     },
 
