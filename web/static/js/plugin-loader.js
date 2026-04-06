@@ -45,7 +45,7 @@ class PluginLoader {
         // Users can add their plugin filenames to this array
         const manualPlugins = [
             // Add your plugin files here, e.g.:
-            // 'e-e-a-t.js',
+            'e-e-a-t.js',
             'cookie-audit.js'
             // 'content-quality.js',
         ];
