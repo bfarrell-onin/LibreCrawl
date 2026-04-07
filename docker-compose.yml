@@ -9,6 +9,7 @@ services:
     volumes:
       # Persist the user database and settings
       - ./data:/app/data
+      - ./web/static/plugins:/app/web/static/plugins
     environment:
       - FLASK_APP=main.py
       - PYTHONUNBUFFERED=1
